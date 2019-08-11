@@ -2,7 +2,7 @@
 var os = require('os');
 
 //korzystanie z modułu
-var OSinfo = require('../modules/OSinfo');
+var OSinfo = require('./modules/OSinfo');
 //odczytywanie wartości z kodowaniem UTF-8
 process.stdin.setEncoding('utf-8');
 //nasłuchiwanie na zdarzenie odczytu
